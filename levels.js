@@ -1,5 +1,5 @@
 const levels = {
-    0: `
+  0: `
         <h1>Welcome to hackTheDOM!</h1>
         <button
             id="next"
@@ -7,7 +7,7 @@ const levels = {
             Continue to challenge
         </button>
     `,
-    1: `
+  1: `
         <h1>Level 1</h1>
         <button
             disabled
@@ -16,7 +16,7 @@ const levels = {
             Click Me
         </button>
     `,
-    2: `
+  2: `
         <h1>Level 2</h1>
         <button
             id="next"
@@ -25,7 +25,7 @@ const levels = {
             Click Me
         </button>
     `,
-    3: `
+  3: `
         <h1>Level 3</h1>
         <input
             id="passwordInput"
@@ -38,6 +38,6 @@ const levels = {
             Click Me
         </button>
     `,
-    4: `
-    `
+  4: `
+    `,
 };
