@@ -2,7 +2,7 @@ const levels = {
     0: `
         <h1>Welcome to hackTheDOM!</h1>
         <button
-            onclick="window.location.href = '?level=1';"
+            id="next"
         >
             Continue to challenge
         </button>
@@ -19,8 +19,8 @@ const levels = {
     2: `
         <h1>Level 2</h1>
         <button
+            id="next"
             style="display: none;"
-            onclick="window.location.href = '?level=3';"
         >
             Click Me
         </button>
@@ -33,15 +33,11 @@ const levels = {
             data-password="correct123"
         >
         <button
-            onclick="
-                const input = document.getElementById('passwordInput');
-                const correctPassword = input.getAttribute('data-password');
-                if (input.value === correctPassword) {
-                    window.location.href = '?level=4';
-                }
-            "
+            id="next"
         >
             Click Me
         </button>
+    `,
+    4: `
     `
 };
