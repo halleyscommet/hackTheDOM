@@ -39,5 +39,6 @@ const levels = {
         </button>
     `,
   4: `
+        <h1>Level 4</h1>
     `,
 };
